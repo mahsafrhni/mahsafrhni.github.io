@@ -1,4 +1,4 @@
----
+<!-- ---
 # Display name
 title: 吳健雄
 
@@ -183,4 +183,212 @@ awards:
 
 ## About Me
 
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks. -->
+---
+# Display name
+title: Mahsa Farahani
+
+# Name pronunciation (optional)
+name_pronunciation: Mah-sa Fa-ra-ha-ni
+
+# Full name (for SEO)
+first_name: Mahsa
+last_name: Farahani
+
+# Status emoji
+status:
+  icon: 📚
+
+# Is this the primary user of the site?
+superuser: true
+
+# Highlight the author in author lists? (true/false)
+highlight_name: true
+
+# Role/position/tagline
+role: R&D Specialist
+
+# Organizations/Affiliations to display in Biography block
+organizations:
+  - name: Sharif University of Technology
+    url: https://www.sharif.edu/
+
+# Social network links
+profiles:
+  - icon: at-symbol
+    url: 'mailto:mahsa.farahani@sharif.edu'
+    label: Email Me
+  - icon: brands/linkedin
+    url: https://www.linkedin.com/in/mahsafarahani/
+    label: LinkedIn
+
+interests:
+  - Firmware Reliability
+  - Embedded Systems
+  - Computer Architecture
+  - Security
+
+education:
+  - area: Master of Science in Computer Systems Architecture
+    institution: Sharif University of Technology
+    date_start: 2022-01-01
+    date_end: ''
+    summary: |
+      Research Assistant at Embedded Systems Research Laboratory (ESRLab) focusing on firmware reliability analysis under the supervision of Prof. Ejlali and Prof. Asadi.
+      
+      Overall Grade: 18.30/20
+  - area: Bachelor of Science in Computer Engineering
+    institution: Shahid Beheshti University
+    date_start: 2017-01-01
+    date_end: 2021-12-31
+  - area: High School Diploma in Mathematics and Physics
+    institution: National Organization for Development of Exceptional Talents (Sampad)
+    date_start: 2013-01-01
+    date_end: 2017-12-31
+
+work:
+  - position: R&D Specialist
+    company_name: Secure Systems and Intelligent Computing Lab
+    company_url: ''
+    date_start: 2024-01-01
+    date_end: ''
+    summary: |
+      - Developing and testing custom UEFI versions for Asrock servers
+      - Writing and executing test scenarios to validate UEFI features using EDK2
+      - Collaborating on firmware troubleshooting and enhancements
+  - position: Intern
+    company_name: Wize Analytics
+    company_url: ''
+    date_start: 2021-06-01
+    date_end: 2021-08-31
+    summary: |
+      - Gained practical experience in Django web development
+      - Worked with business intelligence tools
+      - Utilized Linux command-line operations
+
+skills:
+  - name: Programming Languages
+    items:
+      - name: C
+        percent: 90
+        icon: code
+      - name: Java
+        percent: 85
+        icon: code
+      - name: Go
+        percent: 80
+        icon: code
+      - name: Python
+        percent: 75
+        icon: code
+  - name: Other Technical Skills
+    items:
+      - name: Linux
+        percent: 95
+        icon: terminal
+      - name: Bash Scripting
+        percent: 85
+        icon: terminal
+      - name: Git
+        percent: 90
+        icon: git
+  - name: Non-Technical Skills
+    items:
+      - name: Analytical Problem-Solving
+        percent: 90
+        icon: lightbulb
+      - name: Team Collaboration
+        percent: 95
+        icon: users
+      - name: Adaptability
+        percent: 85
+        icon: sync
+
+languages:
+  - name: Persian
+    percent: 100
+  - name: English
+    percent: 75
+
+awards:
+  - title: Ranked Top 1% in Nationwide University Entrance Exam
+    date: '2017'
+    awarder: Ministry of Education, Iran
+    summary: Ranked among top 1% of over 148,000 participants in the Mathematics-Physics branch.
+  - title: Ranked 37th in PhD Entrance Exam in Computer System Architectures
+    date: '2024'
+    awarder: National Educational Assessment Organization
+    summary: Achieved 37th rank in the PhD Entrance Exam for Computer System Architectures.
+
+publications:
+  - title: Uncovering EDK2 Firmware Flaws: Insights from Code Audit Tools
+    authors: Mahsa Farahani, Ghazal Shenavar, Ali Hosseinghorban, Alireza Ejlali
+    conference: The 5th CPSSI International Symposium on Cyber-Physical Systems - Applications and Theory (CPSAT)
+    date: '2024'
+  - title: From Kernel to Cloud: A Concise Comparative Study of Practical IoT Operating Systems
+    authors: Mahsa Farahani, Mohammad Amin Rashid, Bardia Safaei
+    journal: IEEE Internet of Things Magazine
+    date: '2024'
+
+teaching:
+  - position: Teaching Assistant
+    courses:
+      - name: Compiler Design
+        institution: Shahid Beheshti University
+        terms:
+          - Fall 2020
+          - Fall 2021
+      - name: Compiler Design (Head TA)
+        institution: Sharif University of Technology
+        terms:
+          - Spring 2021
+          - Spring 2022
+      - name: Cryptography Fundamentals
+        institution: Shahid Beheshti University
+        term: Spring 2021
+      - name: Computer Networks
+        institution: Shahid Beheshti University
+        term: Fall 2021
+      - name: Digital Systems Design
+        institution: Sharif University of Technology
+        term: Spring 2023
+      - name: Logic Design Laboratory (Instructor)
+        institution: Sharif University of Technology
+        term: Summer 2023
+      - name: Hardware Laboratory (Instructor)
+        institution: Sharif University of Technology
+        terms:
+          - Fall 2023
+          - Spring 2024
+      - name: Data Structures & Algorithms (Head TA)
+        institution: Sharif University of Technology
+        term: Fall 2023
+      - name: Wireless Networks (Head TA)
+        institution: Sharif University of Technology
+        term: Spring 2024
+      - name: Low Power Design
+        institution: Sharif University of Technology
+        term: Spring 2024
+
+courses:
+  - name: Fundamentals of Embedded and Real-time Systems
+    grade: 19/20
+  - name: Cryptography Fundamentals
+    grade: 19/20
+  - name: Low Power Design
+    grade: 20/20
+  - name: Fault Tolerant System Design
+    grade: 18/20
+  - name: Hardware Security and Trust
+    grade: 18.8/20
+  - name: Wireless Networking
+    grade: 20/20
+  - name: Advanced Operating Systems
+    grade: 18.5/20
+  - name: M.Sc. Seminar
+    grade: 19.9/20
+---
+
+## About Me
+
+Mahsa Farahani is an R&D Specialist and a Master's student in Computer Systems Architecture at Sharif University of Technology. Her research interests include firmware reliability, embedded systems, and computer architecture. As a Research Assistant at the Embedded Systems Research Laboratory (ESRLab), she focuses on firmware reliability analysis under the supervision of Prof. Ejlali and Prof. Asadi. Mahsa has experience in teaching assistant roles for various computer science courses and has contributed to notable publications in her field.
